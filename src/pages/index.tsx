@@ -17,9 +17,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
-      <NavBar />
-
+    <div>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -152,8 +150,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }

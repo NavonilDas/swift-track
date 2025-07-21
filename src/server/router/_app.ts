@@ -4,7 +4,7 @@ import { lazy } from '@trpc/server';
 
 export const appRouter = router({
     user: lazy(() => import('./User').then((m) => m.userRouter)),
-
+    tracking: lazy(() => import('./Tracking').then((m) => m.default)),
     hello: publicProcedure
         .input(
             z.object({

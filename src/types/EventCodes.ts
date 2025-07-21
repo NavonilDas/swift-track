@@ -1,0 +1,13 @@
+enum EventCodes {
+    DELIVERED_TO_RECIPIENT = 1,
+    DELIVERED_TO_NEIGHBOR = 2,
+    OUT_FOR_DELIVERY = 3,
+    IN_TRANSIT = 4,
+    DELAYED = 5,
+    PICKED_UP = 6,
+    PACKAGE_RECEIVED = 7,
+    PACKAGE_WAITING_TO_RECEIVED = 8,
+    PACKAGE_PICKUP_PLACED = 9,
+}
+
+export default EventCodes;
